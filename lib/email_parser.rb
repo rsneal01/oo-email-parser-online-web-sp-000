@@ -13,8 +13,8 @@ class EmailAddressParser
   end
   
   def parse
-    new_array = @email_address.split(/[,\s]+/)
-    if new_array.include?
+    @email_address.split(/[,\s]+/).uniq
+    
   end
   
 end
