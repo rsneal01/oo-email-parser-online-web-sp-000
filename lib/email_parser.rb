@@ -14,7 +14,7 @@ class EmailAddressParser
   
   def parse
     @email_address.split(", ")
-
+    @email_address.split(" ")
   end
   
 end
