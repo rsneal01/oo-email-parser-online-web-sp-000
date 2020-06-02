@@ -14,7 +14,7 @@ class EmailAddressParser
   
   def parse
     new_array = @email_address.split(/[,\s]+/)
-    new_array
+    if new_array.include?
   end
   
 end
